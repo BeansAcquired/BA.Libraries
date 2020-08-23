@@ -150,7 +150,7 @@ namespace BAUnity
             return log;
         }
 
-        // Concatenate and format the callerr attributes string
+        // Concatenate and format the caller attributes string
         private static string FormatCallerAttributes(string path, string member, int line)
         {
             return Path.GetFileNameWithoutExtension(path) + ":" + member + ":" + line;
